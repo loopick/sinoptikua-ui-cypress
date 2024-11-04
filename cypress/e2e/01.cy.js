@@ -58,7 +58,7 @@ describe('SinoptikUA - UI', () => {
       expect(intercept.response.statusCode).is.eq(200);
     });
 
-    Log.msg('Step 7 - Click on 7 tabs one by one');
+    Log.msg('Step 7 - Click on 10 tabs one by one');
     Log.msg('Assertion - Verify response Status code is 200, Date on the Tab Title + Tab Description');
     home.daysTab.assertDateTabsInfo(10, testData.daysList);
   });
