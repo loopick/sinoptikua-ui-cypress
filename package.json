@@ -1,0 +1,17 @@
+{
+  "name": "cypress-tests-sinoptik-ua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.1",
+    "mocha": "^10.8.2",
+    "prettier": "^3.3.3"
+  }
+}
